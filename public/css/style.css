@@ -48,6 +48,13 @@ header button a {
     z-index: -1;
 }
 
+#mujer-vector {
+    width: 400px;
+    position: absolute;
+    bottom: 20%;
+    left: 0%;
+}
+
 form {
     width: 500px;
     display: flex;
