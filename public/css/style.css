@@ -6,6 +6,7 @@
     font-family: 'Inter', sans-serif;
     font-family: 'Raleway', sans-serif;
     color: #011936;
+    font-weight: bold;
 }
 
 body {
@@ -39,6 +40,7 @@ header button {
 header button a {
     text-decoration: none;
     color: #011936;
+    font-size: 13px;
 }
 
 #vector {
@@ -49,10 +51,10 @@ header button a {
 }
 
 #mujer-vector {
-    width: 400px;
+    width: 25em;
     position: absolute;
-    bottom: 100px;
     left: 0%;
+    bottom: 10%;
 }
 
 form {
