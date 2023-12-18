@@ -53,15 +53,29 @@ header > div {
 }
 
 #vector {
-    width: 360px;
+    width: 365px;
     position: absolute;
-    top: 100px;
+    top: 110px;
     left: 0%;
     z-index: -1;
 }
 
 #mujer-vector {
-    width: 350px;
+    width: 365px;
+    position: absolute;
+    bottom: 80px;
+    margin-left: 10px;
+}
+
+.menu-style {
+    background-color: transparent;
+    border: none;
+    padding: 1.3em;
+}
+
+.navbar-toggler-icon {
+    width: 2em;
+    height: 2em;
 }
 
 form {
