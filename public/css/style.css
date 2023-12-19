@@ -9,7 +9,11 @@
     font-weight: bold;
 }
 
+img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"]{ display: none; }
+
 body {
+    display: flex;
+    flex-direction: column;
     background-color: #C0DFA1;
 }
 
@@ -30,7 +34,8 @@ header {
 }
 
 header h1 {
-    font-size: 31px;
+    font-size: 30px;
+    font-weight: bolder;
 }
 
 header button {
@@ -77,6 +82,95 @@ header > div {
     width: 2em;
     height: 2em;
 }
+
+main {
+    margin-top: 480px;
+}
+
+.globito-deco {
+    position: absolute;
+}
+
+#globo-der {
+    right: 0%;
+    top: 102%;
+}
+
+#globo-izq {
+    left: 0%;
+}
+
+#box {
+    width: 70%;
+    flex-direction: column;
+    background-color: #F2F9EC;
+    border-radius: 269px;
+    padding: 5.5em 2.3em 5.5em 2.3em;
+}
+
+
+h2 {
+    font-size: 20px;
+    font-weight: bolder;
+    padding-bottom: 1em;
+}
+
+#box p {
+    font-size: 10px;
+    padding: .5em;
+}
+
+#formacion {
+    margin-top: 200px;
+    flex-direction: column;
+    padding: 0 2em;
+    align-items: center;
+}
+
+h3 {
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+h4 {
+    font-size: 11px;
+}
+
+#formacion p {
+    font-size: 10px;
+}
+
+.box {
+    width: 14em;
+    height: 6vh;
+    background-color: #F2F9EC;
+    border-radius: 60px;
+}
+
+.box h2 {
+    padding: .5em 0 2em 0;
+}
+
+#formacion div.box {
+    margin-bottom: 2em;
+}
+
+.margin-texto-linea {
+    margin-top: 3.5em;
+}
+
+#globo2 {
+    margin-top: 1.8em;
+}
+
+#globo3 {
+    margin-top: 5.6em;
+}
+
+#texto1, #texto2 {
+    margin-top: 12em;
+}
+
 
 form {
     width: 500px;
