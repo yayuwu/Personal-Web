@@ -116,7 +116,7 @@ h2 {
 }
 
 #box p {
-    font-size: 10px;
+    font-size: 12px;
     padding: .5em;
 }
 
@@ -160,7 +160,7 @@ h4 {
 }
 
 #globo2 {
-    margin-top: 1.8em;
+    margin-top: 3.8em;
 }
 
 #globo3 {
@@ -171,10 +171,139 @@ h4 {
     margin-top: 12em;
 }
 
+#portfolio {
+    margin-top: 100px;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilos para el carrusel */
+
+.carousel-container {
+    background-color: #27414B;
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    border-radius: 42px;
+    margin-top: 75px;
+}
+
+.carousel-control {
+    color: #ffff;
+}
+
+.carousel-item > img {
+    border-radius: 10px;
+    padding: 3em;
+}
+
+.carousel-control-prev span, .carousel-control-next span {
+    color: #ffff;
+}
+
+#contacto {
+    margin-top: 100px;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contacto h2 {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
 
 form {
-    width: 500px;
+    width: 70%;
     display: flex;
     flex-direction: column;
-    align-content: center;
+    margin-top: 50px;
+}
+
+form input, textarea {
+    border-radius: 10px;
+    border: 1px solid #F2F9EC;
+    background-color: #F2F9EC;
+    padding: .5em .5em .5em 1.5em;
+    font-size: 12px;
+    margin-top: 2em;
+}
+
+form button {
+    border-radius: 10px;
+    border: 1px solid #27414B;
+    background-color: #27414B;
+    align-self: flex-end;
+    width: 30%;
+    margin-top: 3em;
+    color: #F2F9EC;
+    padding: .5em;
+    font-size: 12px;
+}
+
+form input:focus, textarea:focus {
+    outline: none;
+}
+
+::placeholder {
+    color: #011936;;
+}
+
+#name {
+    margin-top: 0;
+}
+
+footer {
+    margin-top: 50px;
+    background-color: #27414B;
+    flex-direction: column;
+}
+
+footer p {
+    color: #ffff;
+    font-weight: normal;
+    font-size: 10px;
+}
+
+.grid-icons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "linkedin github"
+    "heyjuniors wpp"
+    ;
+    justify-items: end;
+    padding: 2em;
+}
+
+.grid-icons a {
+    width: 45%;
+    padding: 1em;
+}
+
+#linkedin {
+    grid-area: linkedin;
+}
+
+#github {
+    grid-area: github;
+    justify-self: flex-start;
+}
+
+#heyjuniors {
+    grid-area: heyjuniors;
+}
+
+#wpp {
+    grid-area: wpp;
+    justify-self: flex-start;
+}
+
+#copyright {
+    border-top: 1px solid #ffff;
+    padding: 1em;
+    margin: 0 3em;
 }
