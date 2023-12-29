@@ -65,6 +65,7 @@ header > div {
     z-index: -1;
 }
 
+
 #mujer-vector {
     width: 365px;
     position: absolute;
@@ -83,6 +84,10 @@ header > div {
     height: 2em;
 }
 
+.navbar-nav .nav-link.active {
+    color: #011936;
+}
+
 main {
     margin-top: 480px;
 }
@@ -91,14 +96,6 @@ main {
     position: absolute;
 }
 
-#globo-der {
-    right: 0%;
-    top: 102%;
-}
-
-#globo-izq {
-    left: 0%;
-}
 
 #box {
     width: 70%;
@@ -306,4 +303,181 @@ footer p {
     border-top: 1px solid #ffff;
     padding: 1em;
     margin: 0 3em;
+}
+
+@media (max-width: 992px){
+    #vector2 {
+        display: none;
+    }
+    #globo-der {
+        right: 0%;
+        top: 102%;
+    }
+    
+    #globo-izq {
+        left: 0%;
+    }
+    #globo-der2, #globo-izq2 {
+     display: none;   
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar-brand img {
+        width: 250px;
+    }
+    .navbar-brand {
+        margin-left: 2em;
+    }
+    .nav-link {
+        font-size: 25px;
+    }
+    .nav-item {
+        padding-left: 4em;
+    }
+    .container-fluid > div {
+        margin-right: 2.5em;
+    }
+    #vector {
+        display: none;
+    }
+    header div{
+        width: 400px;
+        margin-top: 200px;
+        margin-left: 11em;
+    }
+    header h1 {
+        width: 400px;
+        font-size: 55px;
+        padding-bottom: .2em;
+    }
+    header p {
+        font-size: 30px;
+        padding-bottom: .2em;
+    }
+    header button a {
+        font-size: 20px;
+    }
+    header button {
+        width: 13em;
+        height: 3em;
+    }
+    #mujer-vector {
+        width: 900px;
+        bottom: 0;
+        right: 50px;
+        margin: 0;
+    }
+    #vector2 {
+        position: absolute;
+        top: 130px;
+        left: 0;
+        z-index: -1;
+    }
+    .menu-style {
+        display: none;
+    }
+    h2 {
+        font-size: 42px;
+    }
+    #sobre-mi p {
+        font-size: 25px;
+    }
+    #globo-der, #globo-izq {
+        display: none;
+    } 
+    #globo-der2 {
+        right: 0%;
+        top: 102%;
+    }
+    #globo-izq2 {
+        left: 0%;
+    }
+    #formacion {
+        margin-top: 400px;
+    }
+    .box{
+        width: 400px;
+        height: 5.8em;
+    } 
+    .carousel-container {
+        width: 60%;
+        border-radius: 95px;
+        height: 700px;
+    }
+    .carousel-item > img {
+        padding: 17em 12em 12em 12em;
+        text-align: center;
+    }
+    .carousel-container span {
+        font-size: 60px;
+    }
+    form {
+        width: 50%;
+    }
+    form input, textarea {
+        border-radius: 23px;
+        font-size: 23px;
+    }
+    form textarea {
+        height: 10em;
+    }
+    form button {
+        border-radius: 23px;
+        width: 15%;
+        font-size: 23px;
+    }
+    .grid-icons {
+        display: flex;
+        justify-content: center;
+    }
+    .grid-icons a {
+        width: 100px;
+        padding: 4em 0 0 0;
+    }
+    #copyright p {
+        font-size: 18px;
+    }
+    #copyright {
+        margin: 0 20em;
+    }
+    #globo1, #globo2, #globo3 {
+        width: 300px;
+    }
+    #globo3 {
+        margin-top: 9.2em;
+    }
+    #globo2 {
+        margin-top: 7.4em;
+    }
+    #div-globo2 {
+        justify-content: end;
+    }
+    h3 {
+        font-size: 22px;
+    }
+    h4 {
+        font-size: 18px;
+    }
+    #formacion p {
+        font-size: 14px;
+    }
+    #img-linea-tiempo {
+        width: 58px;
+    }
+    #formacion div.row {
+        justify-content: center;
+    }
+    #texto2 {
+        margin-top: 10.5em;
+    }
+    #texto1 {
+        margin-top: 10em;
+    }
+    .margin-texto-linea {
+        margin-top: 2.4em;
+    }
+    #formacion div.container {
+        margin-top: 3em;
+    }
 }
