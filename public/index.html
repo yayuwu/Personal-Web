@@ -121,14 +121,13 @@
           <h2>CONTACTO</h2>
           <img src="img/linea-contacto.svg" alt="">
         </div>
-        <form action="https://formsubmit.co/401b30aab5c1fcedfc7b402a07267af2" method="POST">
-            <input type="text" name="name" id="name" placeholder="Nombre" required>
+        <form action="/enviar-email"
+        method="POST"
+       >
+            <input type="text" name="name" id="name" placeholder="Nombre" required >
             <input type="text" name="email" placeholder="Email" required>
             <textarea name="comments" id="" cols="30" rows="10" placeholder="Ingrese su mensaje aquí"></textarea>
             <button type="submit">Enviar</button>
-            <input type="hidden" name="_subject" value="Nuevo mensaje de tu página web">
-            <input type="hidden" name="_captcha" value="false">
-            <input type="hidden" name="_next" value="http://localhost:3000 ">
         </form>
       </section>
     </main>
