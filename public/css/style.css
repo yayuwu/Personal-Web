@@ -322,6 +322,7 @@ footer p {
     }
 }
 
+
 @media (min-width: 992px) {
     .navbar-brand img {
         width: 250px;
@@ -363,9 +364,9 @@ footer p {
         height: 3em;
     }
     #mujer-vector {
-        width: 900px;
-        bottom: 0;
-        right: 50px;
+        width: 700px;
+        bottom: 90px;
+        right: 0;
         margin: 0;
     }
     #vector2 {
@@ -479,5 +480,33 @@ footer p {
     }
     #formacion div.container {
         margin-top: 3em;
+    }
+
+}
+
+@media (min-width: 1450px){
+    #mujer-vector {
+        width: 800px;
+        bottom: 40px;
+        right: 0;
+        margin: 0;
+    }
+}
+
+@media (min-width: 1600px){
+    #mujer-vector {
+        width: 900px;
+        bottom: 20px;
+        right: 0;
+        margin: 0;
+    }
+}
+
+@media (min-width: 1700px){
+    #mujer-vector {
+        width: 950px;
+        top: 1px;
+        right: 100px;
+        margin: 0;
     }
 }
