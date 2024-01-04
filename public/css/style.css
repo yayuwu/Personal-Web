@@ -484,29 +484,51 @@ footer p {
 
 }
 
-@media (min-width: 1450px){
+@media (min-width: 1249px){
     #mujer-vector {
-        width: 800px;
-        bottom: 40px;
+        width: 700px;
+        /* top: 1px; */
+        bottom: 120px;
         right: 0;
-        margin: 0;
+    }
+    #vector2 {
+        width: 650px;
+    }
+    header div{
+        width: 400px;
+        margin-top: 150px;
+        margin-left: 7em;
     }
 }
 
-@media (min-width: 1600px){
+@media (min-width: 1400px){
     #mujer-vector {
         width: 900px;
         bottom: 20px;
         right: 0;
-        margin: 0;
     }
+    
 }
 
 @media (min-width: 1700px){
     #mujer-vector {
-        width: 950px;
-        top: 1px;
-        right: 100px;
-        margin: 0;
+        width: 1000px;
+        right: 0;
+    }
+    #vector2 {
+        width: 800px;
+    }
+    header div{
+        width: 400px;
+        margin-top: 200px;
+        margin-left: 11em;
+    }
+}
+
+@media (min-width: 1800px){
+    #mujer-vector {
+        width: 1000px;
+        right: 80px;
+        top: 0.2px;
     }
 }
